@@ -54,8 +54,6 @@ theme:
 #   # - markdown_katex
 #   # - extensions.tab_extension
 
-extra_html:
-  - assets/html/head.html
 
 
 plugins:

@@ -38,7 +38,7 @@ So that the follwoing properties hold:
     such that for any \\(f\in mor_{\mathcal{C}}(A, B)\\) \\[1_{B}\circ f= f\circ 1_{A}.\\]
 
     <div style="text-align: center;">
-    <img src="../../img/intro_to_category/Identities3.png" alt="Commutative Diagram" width="500" height="400">
+    <img src="../../img/intro_to_category/identities.png" alt="Commutative Diagram" width="500" height="400">
     <div>
 
 

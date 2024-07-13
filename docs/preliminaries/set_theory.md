@@ -15,11 +15,11 @@ To formaly define the axiom one needs to intruce terminology of formal logic, wh
 
 1. **Axiom of Extensionality**: Two sets are equal if they have the same elements.
     <div style="text-align: center;">
-    <img src="./img/set_theory/equality.png" alt="Equality" width="300" height="150">
+    <img src="../../img/set_theory/equality.png" alt="Equality" width="300" height="150">
     </div>
 2. **Axiom of Regularity**: Every non-empty set has an element that is disjoint from the set.
     <div style="text-align: center;">
-    <img src="./img/set_theory/extendability.png" alt="Equality" width="150" height="130">
+    <img src="../../img/set_theory/extendability.png" alt="Equality" width="150" height="130">
     </div>
 3. **Axiom of Pairing**: For any two sets \\(a\\) and \\(b\\), there exists a set \\(\{a, b\}\\) that contains \\(a\\) and \\(b\\) as elements.
 4. **Axiom of Union**: For any set \\(a\\), there exists a set \\(\bigcup a\\) that contains all the elements of the sets in \\(a\\).

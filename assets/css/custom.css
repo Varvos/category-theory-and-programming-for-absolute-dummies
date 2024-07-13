@@ -28,29 +28,30 @@
 }
 
 
-html {
+/* html {
   font-size: 16px; /* Default size. You can increase or decrease it */
-}
+/* } */ 
 
 
-body {
+/* body {
   font-family: Arial, sans-serif; /* Sets the font for the body */
-  font-size: 1rem; /* Sets the base font size */
-}
+  /* font-size: 1rem; Sets the base font size */
+/* }  */
 
-h1, h2, h3 {
+/* h1, h2, h3 {
   font-weight: bold;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 2.5rem; /* Larger size for main headings */
-}
+/* } */ 
 
-h2 {
+/* h2 {
   font-size: 2rem; /* Smaller than h1 */
-}
+/* } */ 
 
-p {
+/* p {
   font-size: 1rem; /* Standard size for paragraphs */
-  line-height: 2; /* Adjust line spacing for readability */
-}
+  /* line-height: 2; Adjust line spacing for readability */
+/* } */
+

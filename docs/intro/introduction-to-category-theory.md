@@ -5,8 +5,7 @@ A central idea in mathematics is that **`objects in mathematics are defined by t
 In essence, category theory allows to formalise the idea of associacions between different mathematical structures and associations between associations.
 
 >
-> "A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies 
-> between proofs and the best mathematician can notice analogies between theories."
+> "A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see **`analogies between analogies.`**"
 > 
 > **Stefan Banach**
 

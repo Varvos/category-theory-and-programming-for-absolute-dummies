@@ -1,6 +1,6 @@
 #  <span style="color:black">**Set Theory; sets and classes**</span>
 
-<!-- [TOC] -->
+We will start with the basic concepts of set theory. Set theory is the branch of mathematics that studies sets - collection of objects.
 
 ## Sets
 
@@ -10,7 +10,6 @@ A set is a collection of objects. The objects in a set are called elements or me
 The formal definition of a set is given by the axioms of set theory. The axioms of set theory are a set of rules that define the properties of sets.  A wildley used set of axioms is the `Zermelo-Fraenkel` set theory with the axiom of choice (ZFC).
 
 To formaly define the axiom one needs to intruce terminology of formal logic, which is beyond the scope of this document. However, the axioms can be informally described as follows.
-
 
 **ZFC Axioms:**
 

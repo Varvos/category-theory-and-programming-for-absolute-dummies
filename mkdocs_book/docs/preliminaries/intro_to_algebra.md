@@ -1,5 +1,6 @@
 # Introduction to Algebra
 
+We continue with a brief introduction to some fundaentalalgebraic structures.
 
 ## Monoid
 

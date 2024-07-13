@@ -18,7 +18,7 @@ We denote \\(mor_{{\mathcal{C}}}(A, B)\\) the class of all morphisms betwen the 
   Which allows to combine any two morphisms \\(f\in mor_{{\mathcal{C}}}(A, B)\\) and \\(g\in mor_{{\mathcal{C}}}(B, C)\\) to  produce a new morphism \\(g\circ f\in mor_{{\mathcal{C}}}(A, C)\\).
   
     <div align=center>
-    <img src="../img/intro_to_category/commutative_diagram.png" width="400px" hight="100px">
+    <img src="/../img/intro_to_category/commutative_diagram.png" width="400px" hight="100px">
     </div>
 
 So that the follwoing properties hold:
@@ -29,7 +29,7 @@ So that the follwoing properties hold:
     \\[h\circ(g\circ f) = (h\circ g)\circ f.\\]
 
     <div style="text-align: center;">
-    <img src="../img/intro_to_category/Associativity.png" alt="Commutative Diagram" width="500" height="400">
+    <img src="./../img/intro_to_category/Associativity.png" alt="Commutative Diagram" width="500" height="400">
     <div>
 
 - **Identity:** For each object, there exists an identity morphism that acts as a neutral element (identity) for the composition of morphisms.

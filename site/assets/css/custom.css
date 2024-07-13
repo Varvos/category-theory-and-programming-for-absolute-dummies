@@ -1,0 +1,56 @@
+/* Change the navbar background and text color */
+.md-header {
+    background-color: #028063 !important;  /* Dark blue background */
+    color: #eae9da !important;  /* White text */
+}
+
+/* Adjust link colors in the navbar */
+.md-header .md-header-nav__link {
+    color: #c71a34 !important;  /* White links */
+}
+
+/* Change the background color of the footer */
+.md-footer {
+    background-color: #f1f2e8 !important;  /* Dark blue background */
+    color: #ee5fb7 !important;  /* White text */
+}
+
+/* Change the background color of the main content area */
+.md-main {
+    background-color: #ffffff !important;  /* Light gray background */
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+html {
+  font-size: 30px; /* Default size. You can increase or decrease it */
+}
+
+
+body {
+  font-family: Arial, sans-serif; /* Sets the font for the body */
+  font-size: 1rem; /* Sets the base font size */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger size for main headings */
+}
+
+h2 {
+  font-size: 2rem; /* Smaller than h1 */
+}
+
+p {
+  font-size: 1rem; /* Standard size for paragraphs */
+  line-height: 2; /* Adjust line spacing for readability */
+}

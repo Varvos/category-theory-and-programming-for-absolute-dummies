@@ -1,0 +1,30 @@
+.tabbed-labels label {
+    background-color: #c76342; /* Set background color */
+
+    padding: 8px 8px; /* Adjust padding to increase or decrease the tab size */
+
+    margin-right: 0.9px; /* Space between tabs */
+    border-radius: 19px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+
+  
+
+div.tabbed-set div.tabbed-labels label {
+    font-size: 12px !important; /* Increased specificity and !important to ensure application */
+    padding: 1px 7px !important; /* Increased padding and !important */
+    color: #f6f2f2 !important; /* Ensure text color applies */
+    background-color: #519de8; /* Background color of the tab */
+}
+
+div.tabbed-set div.tabbed-labels label:hover {
+  background-color: #53ee63; /* Darker background on hover */
+}
+
+
+  .tabbed-content {
+    background-color: #0faa74; /* Light grey background */
+    padding: 1px; /* Padding around content */
+    border: 1px solid #8b7bf1; /* Border around content area */
+  }

@@ -1,0 +1,67 @@
+site_name: Category Theory & Programming for Dummies
+
+# theme: readthedocs
+
+theme:
+  name: 'material'
+
+
+extra_css:
+  - assets/css/custom.css 
+  - assets/css/tabs.css
+  - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js
+  - assets/js/katex_init.js
+
+  # - js/tabs.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
+  - assets/js/mathjax-config.js
+  
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+theme:
+  name: material
+# markdown_extensions:
+#   # - pymdownx.superfences:
+#   #     custom_fences:
+#   #       - name: tabbed
+#   #         class: tabbed
+#   #         format: pymdownx.tabbed.tabbed_fences
+#   # - pymdownx.tabbed
+#   - markdown.extensions.extra
+#   - markdown.extensions.attr_list
+#   - markdown.extensions.codehilite
+#   - markdown.extensions.tables
+#   - pymdownx.superfences
+#   - pymdownx.details
+#   - pymdownx.inlinehilite
+#   - pymdownx.magiclink
+#   - pymdownx.tilde
+#   - pymdownx.tabbed:
+#       # alternate_style: true
+#       # format: pymdownx.tabbed.tabbed_fences
+
+#   - toc:
+#       permalink: true
+#   - attr_list
+#   # - markdown_katex
+#   # - extensions.tab_extension
+
+extra_html:
+  - assets/html/head.html
+
+
+plugins:
+  - search
+  - awesome-pages
+
+nav:
+  - Introduction:
+    - Preface: 'intro/index.md'

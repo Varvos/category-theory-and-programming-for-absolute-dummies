@@ -29,7 +29,7 @@ So that the follwoing properties hold:
     \\[h\circ(g\circ f) = (h\circ g)\circ f.\\]
 
     <div style="text-align: center;">
-    <img src="./../img/intro_to_category/Associativity.png" alt="Commutative Diagram" width="300" height="200">
+    <img src="../../img/intro_to_category/Associativity.png" alt="Commutative Diagram" width="300" height="200">
     <div>
 
 - **Identity:** For each object, there exists an identity morphism that acts as a neutral element (identity) for the composition of morphisms.

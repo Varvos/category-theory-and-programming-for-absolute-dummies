@@ -1,6 +1,9 @@
 site_name: Category Theory & Programming for Dummies
 
-# theme: readthedocs
+repo_name: Varvos/cattheor-prog
+repo_url: https://github.com/Varvos/cattheor-prog/
+site_url: https://varvos.github.io/cattheor-prog/
+# docs_dir: docs
 
 theme:
   name: 'material'

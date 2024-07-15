@@ -18,7 +18,7 @@ We denote \\(mor_{{\mathcal{C}}}(A, B)\\) the class of all morphisms betwen the 
   Which allows to combine any two morphisms \\(f\in mor_{{\mathcal{C}}}(A, B)\\) and \\(g\in mor_{{\mathcal{C}}}(B, C)\\) to  produce a new morphism \\(g\circ f\in mor_{{\mathcal{C}}}(A, C)\\).
   
     <div align=center>
-    <img src="./../img/intro_to_category/commutative_diagram.png" width="300px" hight="100px">
+    <img src="../../img/intro_to_category/commutative_diagram.png" width="300px" hight="100px">
     </div>
 
 So that the follwoing properties hold:
@@ -38,7 +38,7 @@ So that the follwoing properties hold:
     such that for any \\(f\in mor_{\mathcal{C}}(A, B)\\) \\[1_{B}\circ f= f\circ 1_{A}.\\]
 
     <div style="text-align: center;">
-    <img src="./../img/intro_to_category/identities.png" alt="Commutative Diagram" width="300" height="200" >
+    <img src="../../img/intro_to_category/identities.png" alt="Commutative Diagram" width="300" height="200" >
     <div>
 
 
@@ -48,7 +48,7 @@ So that the follwoing properties hold:
 The categories themselves can by "higher level arrows" which are called <span style="color: red;">**Functors**</span>. Latter, are mappings between categories that preserve the inner relationships (morphisms and their composition) between the objects.
 
 <div style="text-align: center;">
-    <img src="./../img/intro_to_category/functor_diag.png" alt="Commutative Diagram"  width="300" height="200">
+    <img src="../../img/intro_to_category/functor_diag.png" alt="Commutative Diagram"  width="300" height="200">
 </div>
 
 As such, Functors establish analogies between two categories, and they can be used to translate the concepts from one category to another.
@@ -75,4 +75,4 @@ such that
 
 This is illustrated in the following diagram with the commutative diagram that should hold for each morphism \\(\eta_{X}, \eta_{Y}\\) associated to the objects \\(X, Y\\) in the categories.
 
-<div style="text-align: center;"> <img src="./../img/intro_to_category/Natural_Transformation3.3.png" alt="Commutative Diagram"  width="350" height="250"> </div>
+<div style="text-align: center;"> <img src="../../img/intro_to_category/Natural_Transformation3.3.png" alt="Commutative Diagram"  width="350" height="250"> </div>

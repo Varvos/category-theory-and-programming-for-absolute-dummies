@@ -1,4 +1,4 @@
-# Welcome to `Category Theory for Programmers` 
+# Welcome to `Category Theory through Math and Programming for Dummies`
 
 
 ## Project 

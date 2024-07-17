@@ -11,6 +11,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://varvos.github.io/cattheor-prog/basics/functors/</loc>
+         <lastmod>2024-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://varvos.github.io/cattheor-prog/basics/morphisms/</loc>
+         <lastmod>2024-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://varvos.github.io/cattheor-prog/intro/</loc>
          <lastmod>2024-07-17</lastmod>
          <changefreq>daily</changefreq>
@@ -26,7 +36,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://varvos.github.io/cattheor-prog/preliminaries/intro_to_algebra/</loc>
+         <loc>https://varvos.github.io/cattheor-prog/preliminaries/basic_algebra/</loc>
          <lastmod>2024-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>

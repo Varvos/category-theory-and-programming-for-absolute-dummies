@@ -8,10 +8,8 @@
       
       
       
-        <link rel="canonical" href="https://varvos.github.io/cattheor-prog/basics/formal_definitions/">
+        <link rel="canonical" href="https://varvos.github.io/cattheor-prog/preliminaries/basic_algebra/">
       
-      
-        <link rel="prev" href="../../preliminaries/set_theory/">
       
       
       
@@ -20,7 +18,7 @@
     
     
       
-        <title>Formal Defintionns - Category Theory through Math & Programming for Dummies</title>
+        <title>Introduction to Algebra - Category Theory through Math & Programming for Dummies</title>
       
     
     
@@ -68,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#formal-definitions" class="md-skip">
+        <a href="#introduction-to-algebra" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Formal Defintionns
+              Introduction to Algebra
             
           </span>
         </div>
@@ -340,7 +338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../preliminaries/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -361,7 +359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../preliminaries/set_theory/" class="md-nav__link">
+      <a href="../set_theory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -382,7 +380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../preliminaries/intro_to_algebra.md" class="md-nav__link">
+      <a href="../intro_to_algebra.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -407,19 +405,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -433,7 +429,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Basic Concepts
@@ -444,30 +440,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Formal Defintionns
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../basics/formal_definitions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -476,53 +452,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#definition-of-category" class="md-nav__link">
-    <span class="md-ellipsis">
-      Definition of Category:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#functors" class="md-nav__link">
-    <span class="md-ellipsis">
-      Functors
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#natural-transformations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Natural Transformations
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -562,29 +491,95 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#definition-of-category" class="md-nav__link">
+  <a href="#monoid" class="md-nav__link">
     <span class="md-ellipsis">
-      Definition of Category:
+      Monoid
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monoid">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definition
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#functors" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Functors
+      Example
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#natural-transformations" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#category-theoretic-perspective" class="md-nav__link">
     <span class="md-ellipsis">
-      Natural Transformations
+      Category Theoretic Perspective
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#group" class="md-nav__link">
+    <span class="md-ellipsis">
+      Group
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Group">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#category-theoretic-perspective_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Category Theoretic Perspective
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#illustrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Illustrations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -606,82 +601,88 @@
   
 
 
-<h1 id="formal-definitions"><span style="color: black;"><strong>Formal Definitions</strong></span></h1>
-<h2 id="definition-of-category"><strong>Definition of Category</strong>:</h2>
-<p>A <span style="color: blue;"><strong>Category</strong></span> \(\mathcal{C}\) consists of two classes; </p>
+<h1 id="introduction-to-algebra">Introduction to Algebra</h1>
+<p>We continue with a brief introduction to some fundaentalalgebraic structures.</p>
+<h2 id="monoid">Monoid</h2>
+<p>A <strong>Monoid</strong> is a basic algebraic structure consisting of a set combined with a binary operation that is associative and has an identity element.</p>
+<h3 id="definition">Definition</h3>
+<p>A monoid is defined by the following properties:</p>
 <ul>
-<li>
-<p>The class of its <strong>objects</strong>: \(obj(\mathcal{C})\) and </p>
-</li>
-<li>
-<p>The class of <strong>morphisms</strong> \( mor_{{\mathcal{C}}}(\mathcal{C})\).</p>
-</li>
+<li><strong>Associativity</strong>: For all \(a, b, c\) in \(M\),
+  \[
+  (a \cdot b) \cdot c = a \cdot (b \cdot c)
+  \]</li>
+<li><strong>Identity Element</strong>: There exists an element \(e \in M\) such that for every element \(a \in M\),
+  \[
+  e \cdot a = a \cdot e = a
+  \]</li>
 </ul>
-<p>Each morphism \(f\in mor_{{\mathcal{C}}}(\mathcal{C})\)of the morphisms class has a source object \(A\) and a target object \(B\), and is denoted as \(f\colon A \to B\). </p>
-<p>We denote \(mor_{{\mathcal{C}}}(A, B)\) the class of all morphisms betwen the objects \(A\) and \(B\).</p>
-<ul>
-<li>
-<p>There is a binnary opperation \(\circ\) on the class of Morphisms called <strong>morphism compositions</strong>:
-  \[ \circ \colon mor_{{\mathcal{C}}}(A, B) \times mor_{{\mathcal{C}}}(B, C) \to mor_{{\mathcal{C}}}(A, C).\] 
-  Which allows to combine any two morphisms \(f\in mor_{{\mathcal{C}}}(A, B)\) and \(g\in mor_{{\mathcal{C}}}(B, C)\) to  produce a new morphism \(g\circ f\in mor_{{\mathcal{C}}}(A, C)\).</p>
-<p><div align=center>
-<img src="../../img/intro_to_category/commutative_diagram.png" width="300px" hight="100px">
-</div></p>
-</li>
-</ul>
-<p>So that the follwoing properties hold:</p>
-<ul>
-<li>
-<p><strong>Assocaiativity:</strong> If there are are different ways of composing morphisms, the result should be the same.</p>
-<blockquote>
-<p>For any \(f\in mor_{{{\mathcal{C}}}}(A, B)\), \(g\in mor_{{{\mathcal{C}}}}(B, C)\) and \(h\in mor_{{{\mathcal{C}}}}(C, D)\)
-\[h\circ(g\circ f) = (h\circ g)\circ f.\]</p>
-</blockquote>
-<p><div style="text-align: center;">
-<img src="../../img/intro_to_category/Associativity.png" alt="Commutative Diagram" width="300" height="200">
-<div></p>
-</li>
-<li>
-<p><strong>Identity:</strong> For each object, there exists an identity morphism that acts as a neutral element (identity) for the composition of morphisms.</p>
-<blockquote>
-<p>There exisits <code>identity</code> morphisms for each object \(1_{X}\in mor_{\mathcal{C}}(X, X),\, \forall X\in obj(\mathcal{C})\) 
-such that for any \(f\in mor_{\mathcal{C}}(A, B)\) \[1_{B}\circ f= f\circ 1_{A}.\]</p>
-</blockquote>
-<p><div style="text-align: center;">
-<img src="../../img/intro_to_category/identities.png" alt="Commutative Diagram" width="300" height="200" >
-<div></p>
-</li>
-</ul>
-<h2 id="functors"><strong>Functors</strong></h2>
-<p>The categories themselves can by "higher level arrows" which are called <span style="color: red;"><strong>Functors</strong></span>. Latter, are mappings between categories that preserve the inner relationships (morphisms and their composition) between the objects.</p>
-<div style="text-align: center;">
-    <img src="../../img/intro_to_category/functor_diag.png" alt="Commutative Diagram"  width="300" height="200">
-</div>
+<h3 id="example">Example</h3>
+<p>A simple example of a monoid is the set of natural numbers \(\mathbb{N}\) including zero, with addition as the operation. Here, the identity element is \(0\).</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Haskel</label><label for="__tabbed_1_2">Scala</label><label for="__tabbed_1_3">Python</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="c1">-- Haskell example of a monoid operation</span>
+<span class="nf">add</span><span class="w"> </span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span>
+<span class="nf">add</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">y</span>
 
-<p>As such, Functors establish analogies between two categories, and they can be used to translate the concepts from one category to another.</p>
-<h2 id="natural-transformations"><strong>Natural Transformations</strong></h2>
-<p>The <span style="color: red;"><strong>Natural Transformation</strong></span> is a concept which allows to define connections between Functors.</p>
-<p>Let \(F, G\) be two functors between the categories \( \mathcal{C}_1 \) and \( \mathcal{C}_2 \).
-A natural transformation is a collection
-\[
-  \eta:= \{ 
-    \eta_A \in
-    mor_{_{\mathcal{C}_2}}(F(A), G(A))
-    \colon A \in obj(\mathcal{C}_1) 
-    \},
-\]
-such that</p>
+<span class="nf">identity</span><span class="w"> </span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span>
+<span class="nf">identity</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">0</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="c1">// Scala example of a monoid operation</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">add</span><span class="p">(</span><span class="n">x</span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="p">):</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">y</span>
+
+<span class="kd">val</span><span class="w"> </span><span class="n">identity</span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="c1"># Python example of a monoid operation</span>
+<span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+
+<span class="n">identity</span> <span class="o">=</span> <span class="mi">0</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<!-- 
+=== "Lisp"
+    <div class="highlight"><pre><span></span><code><span class="c1">;; Lisp example of a monoid operation</span>
+<span class="p">(</span><span class="nb">defun</span><span class="w"> </span><span class="nv">add</span><span class="w"> </span><span class="p">(</span><span class="nv">a</span><span class="w"> </span><span class="nv">b</span><span class="p">)</span>
+<span class="w">  </span><span class="p">(</span><span class="nb">+</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">b</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defvar</span><span class="w"> </span><span class="nb">identity</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div>
+     -->
+
+<h3 id="category-theoretic-perspective">Category Theoretic Perspective</h3>
+<p>In category theory, a monoid can be seen as a category with a single object. The object's morphisms are the elements of the monoid, and the composition of morphisms corresponds to the monoid operation.</p>
+<h2 id="group">Group</h2>
+<p>A <strong>Group</strong> is like a monoid but also requires each element to have an inverse.</p>
+<h3 id="definition_1"><strong>Definition</strong></h3>
+<p>A group is defined by all the properties of a monoid with the addition of:</p>
 <ul>
-<li>
-<p>\(\eta_A\) is a morphism from \(F(A)\) to \(G(A)\), for each \(obj(\mathcal{C}_1)\).</p>
-</li>
-<li>
-<p>The above morphism relate the way the to Functors transform objects such that for every morphism \(f\colon A \mapsto B\), \(A, B\in obj(\mathcal{C}_1)\), we have
-\[\eta_B\circ F(f) = G(f)\circ \eta_A.\]</p>
-</li>
+<li><strong>Inverse Element</strong>: For every element \(a \in G\), there exists an element \(b \in G\) such that,
+  \[
+  a \cdot b = b \cdot a = e
+  \]</li>
 </ul>
-<p>This is illustrated in the following diagram with the commutative diagram that should hold for each morphism \(\eta_{X}, \eta_{Y}\) associated to the objects \(X, Y\) in the categories.</p>
-<div style="text-align: center;"> <img src="../../img/intro_to_category/Natural_Transformation3.3.png" alt="Commutative Diagram"  width="350" height="250"> </div>
+<h3 id="example_1"><strong>Example</strong></h3>
+<p>An example of a group is the set of integers \(\mathbb{Z}\) with addition. Each integer \(a\) has an inverse \(-a\).</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Python example of a group operation</span>
+<span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+
+<span class="k">def</span> <span class="nf">inverse</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+    <span class="k">return</span> <span class="o">-</span><span class="n">a</span>
+
+<span class="n">identity</span> <span class="o">=</span> <span class="mi">0</span>
+</code></pre></div>
+<h3 id="category-theoretic-perspective_1">Category Theoretic Perspective</h3>
+<p>A <strong>Monoid</strong> can be seen as a category with one object, while a <strong>Group</strong> can be seen as a category with one object where every morphism has an inverse (i.e. is an isomorphism).</p>
+<h3 id="illustrations">Illustrations</h3>
 
 
 

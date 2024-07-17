@@ -558,17 +558,28 @@
 
 <h1 id="functors">Functors</h1>
 <p>This section explores various falvors of <code>Functors</code>, their role in mathematics, and their usage in programming.</p>
-<p>=== Scala
-    <code>scala
-    // Scala example of a functor
-    trait Functor[F[_]] {
-    def map[A, B](fa: F[A])(f: A =&gt; B): F[B]
-    }</code></p>
-<p>=== Haskell
-    <div class="highlight"><pre><span></span><code><span class="c1">-- Haskell example of a functor</span>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Scala</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>```scala
+// Scala example of a functor
+trait Functor[F[_]] {
+def map<a href="fa: F[A]">A, B</a>(f: A =&gt; B): F[B]
+}</p>
+</div>
+</div>
+</div>
+<p>```</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Haskell</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="c1">-- Haskell example of a functor</span>
 <span class="kr">class</span><span class="w"> </span><span class="kt">Functor</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="kr">where</span>
 <span class="nf">fmap</span><span class="w"> </span><span class="ow">::</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="n">b</span>
-</code></pre></div></p>
+</code></pre></div>
+</div>
+</div>
+</div>
 
 
 

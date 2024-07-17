@@ -18,5 +18,9 @@ This section explores various falvors of `Functors`, their role in mathematics, 
     -- Haskell example of a functor
     class Functor f where
     fmap :: (a -> b) -> f a -> f b
+<<<<<<< HEAD
     ```
 
+=======
+    ```
+>>>>>>> b2cfc05743ff4de74cc2db40f3f95709e80e0717

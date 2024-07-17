@@ -5,7 +5,7 @@ This section explores various falvors of `Functors`, their role in mathematics, 
 
 
 
-=== Scala
+=== "Scala"
     ```scala
     // Scala example of a functor
     trait Functor[F[_]] {
@@ -13,7 +13,7 @@ This section explores various falvors of `Functors`, their role in mathematics, 
     }
 ```
 
-=== Haskell
+=== "Haskell"
     ```haskell
     -- Haskell example of a functor
     class Functor f where

@@ -75,4 +75,6 @@ nav:
 
   - Basic Concepts:
     - Formal Defintionns: 'basics/formal_definitions.md'
+    - Morphisms: 'basics/morphisms.md'
+    - Functors: 'basics/functors.md'
 

@@ -19,6 +19,8 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js
   - assets/js/katex_init.js
+  - assets/js/random-color.js
+
 
   # - js/tabs.js
   # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
@@ -71,7 +73,7 @@ nav:
   - Preliminaries:
     - preliminaries/index.md
     - Set Theory: 'preliminaries/set_theory.md'
-    - Algebra: 'preliminaries/intro_to_algebra.md'
+    - Algebra: 'preliminaries/basic_algebra.md'
 
   - Basic Concepts:
     - Formal Defintionns: 'basics/formal_definitions.md'

@@ -382,7 +382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../preliminaries/intro_to_algebra.md" class="md-nav__link">
+      <a href="../../preliminaries/basic_algebra/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -558,47 +558,23 @@
 
 <h1 id="functors">Functors</h1>
 <p>This section explores various falvors of <code>Functors</code>, their role in mathematics, and their usage in programming.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Scala</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Scala</label><label for="__tabbed_1_2">Haskell</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>```scala
-// Scala example of a functor
-trait Functor[F[_]] {
-def map<a href="fa: F[A]">A, B</a>(f: A =&gt; B): F[B]
-}</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Scala example of a functor</span>
+<span class="k">trait</span><span class="w"> </span><span class="nc">Functor</span><span class="p">[</span><span class="nc">F</span><span class="p">[</span><span class="n">_</span><span class="p">]]</span><span class="w"> </span><span class="p">{</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">map</span><span class="p">[</span><span class="nc">A</span><span class="p">,</span><span class="w"> </span><span class="nc">B</span><span class="p">](</span><span class="n">fa</span><span class="p">:</span><span class="w"> </span><span class="nc">F</span><span class="p">[</span><span class="nc">A</span><span class="p">])(</span><span class="n">f</span><span class="p">:</span><span class="w"> </span><span class="nc">A</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="nc">B</span><span class="p">):</span><span class="w"> </span><span class="nc">F</span><span class="p">[</span><span class="nc">B</span><span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
 </div>
-</div>
-</div>
-<p>```</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Haskell</label></div>
-<div class="tabbed-content">
 <div class="tabbed-block">
-<p>```haskell
--- Haskell example of a functor
-class Functor f where
-fmap :: (a -&gt; b) -&gt; f a -&gt; f b</p>
+<div class="highlight"><pre><span></span><code><span class="c1">-- Haskell example of a functor</span>
+<span class="kr">class</span><span class="w"> </span><span class="kt">Functor</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="kr">where</span>
+<span class="nf">fmap</span><span class="w"> </span><span class="ow">::</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="n">b</span>
+</code></pre></div>
 </div>
 </div>
 </div>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-    ```</p>
-<p>=======
-    ```</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>b2cfc05743ff4de74cc2db40f3f95709e80e0717</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
 
 
 
@@ -657,6 +633,8 @@ fmap :: (a -&gt; b) -&gt; f a -&gt; f b</p>
         <script src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js"></script>
       
         <script src="../../assets/js/katex_init.js"></script>
+      
+        <script src="../../assets/js/random-color.js"></script>
       
         <script src="../../assets/js/mathjax-config.js"></script>
       

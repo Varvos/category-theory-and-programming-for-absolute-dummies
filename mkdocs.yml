@@ -80,3 +80,9 @@ nav:
     - Morphisms: 'basics/morphisms.md'
     - Functors: 'basics/functors.md'
 
+  - Category Theory and Machine Learning:
+    - Intro: 'ml/index.md'
+    - Topological Data Analysis: 'ml/tda.md'
+    - Graph Neural Networks: 'ml/gnn.md'
+    - Categorical Deep Learning: 'ml/catlearn.md'
+

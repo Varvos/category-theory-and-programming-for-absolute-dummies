@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://varvos.github.io/cattheor-prog/basics/formal_definitions/">
+        <link rel="canonical" href="https://varvos.github.io/cattheor-prog/advanced/monoids/">
       
       
-        <link rel="prev" href="../../preliminaries/basic_algebra/">
+        <link rel="prev" href="../monads/">
       
       
-        <link rel="next" href="../morphisms/">
+        <link rel="next" href="../monoidal_categories/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Formal Defintionns - Category Theory through Math & Programming for Dummies</title>
+        <title>Monoids - Category Theory through Math & Programming for Dummies</title>
       
     
     
@@ -69,11 +69,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#formal-definitions" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Formal Defintionns
+              Monoids
             
           </span>
         </div>
@@ -409,19 +404,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -435,7 +428,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Basic Concepts
@@ -446,30 +439,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Formal Defintionns
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../basics/formal_definitions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -478,53 +451,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#definition-of-category" class="md-nav__link">
-    <span class="md-ellipsis">
-      Definition of Category:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#functors" class="md-nav__link">
-    <span class="md-ellipsis">
-      Functors
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#natural-transformations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Natural Transformations
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -537,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../morphisms/" class="md-nav__link">
+      <a href="../../basics/morphisms/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -558,7 +484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../functors/" class="md-nav__link">
+      <a href="../../basics/functors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -583,17 +509,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -607,7 +535,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Advanced Topics
@@ -618,17 +546,19 @@
                 
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
         
           
           <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
@@ -642,7 +572,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
             Monads and Monids
@@ -656,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced/monads/" class="md-nav__link">
+      <a href="../monads/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -674,10 +604,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../advanced/monoids/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -686,6 +623,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -698,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced/monoidal_categories/" class="md-nav__link">
+      <a href="../monoidal_categories/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -719,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced/monads_in_programming/" class="md-nav__link">
+      <a href="../monads_in_programming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -748,7 +686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced/higher_categories/" class="md-nav__link">
+      <a href="../higher_categories/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -769,7 +707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced/topos_theory/" class="md-nav__link">
+      <a href="../topos_theory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -933,43 +871,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#definition-of-category" class="md-nav__link">
-    <span class="md-ellipsis">
-      Definition of Category:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#functors" class="md-nav__link">
-    <span class="md-ellipsis">
-      Functors
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#natural-transformations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Natural Transformations
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -987,82 +888,9 @@
   
 
 
-<h1 id="formal-definitions"><span style="color: black;"><strong>Formal Definitions</strong></span></h1>
-<h2 id="definition-of-category"><strong>Definition of Category</strong>:</h2>
-<p>A <span style="color: blue;"><strong>Category</strong></span> \(\mathcal{C}\) consists of two classes; </p>
-<ul>
-<li>
-<p>The class of its <strong>objects</strong>: \(obj(\mathcal{C})\) and </p>
-</li>
-<li>
-<p>The class of <strong>morphisms</strong> \( mor_{{\mathcal{C}}}(\mathcal{C})\).</p>
-</li>
-</ul>
-<p>Each morphism \(f\in mor_{{\mathcal{C}}}(\mathcal{C})\)of the morphisms class has a source object \(A\) and a target object \(B\), and is denoted as \(f\colon A \to B\). </p>
-<p>We denote \(mor_{{\mathcal{C}}}(A, B)\) the class of all morphisms betwen the objects \(A\) and \(B\).</p>
-<ul>
-<li>
-<p>There is a binnary opperation \(\circ\) on the class of Morphisms called <strong>morphism compositions</strong>:
-  \[ \circ \colon mor_{{\mathcal{C}}}(A, B) \times mor_{{\mathcal{C}}}(B, C) \to mor_{{\mathcal{C}}}(A, C).\] 
-  Which allows to combine any two morphisms \(f\in mor_{{\mathcal{C}}}(A, B)\) and \(g\in mor_{{\mathcal{C}}}(B, C)\) to  produce a new morphism \(g\circ f\in mor_{{\mathcal{C}}}(A, C)\).</p>
-<p><div align=center>
-<img src="../../img/intro_to_category/commutative_diagram.png" width="300px" hight="100px">
-</div></p>
-</li>
-</ul>
-<p>So that the follwoing properties hold:</p>
-<ul>
-<li>
-<p><strong>Assocaiativity:</strong> If there are are different ways of composing morphisms, the result should be the same.</p>
-<blockquote>
-<p>For any \(f\in mor_{{{\mathcal{C}}}}(A, B)\), \(g\in mor_{{{\mathcal{C}}}}(B, C)\) and \(h\in mor_{{{\mathcal{C}}}}(C, D)\)
-\[h\circ(g\circ f) = (h\circ g)\circ f.\]</p>
-</blockquote>
-<p><div style="text-align: center;">
-<img src="../../img/intro_to_category/Associativity.png" alt="Commutative Diagram" width="300" height="200">
-<div></p>
-</li>
-<li>
-<p><strong>Identity:</strong> For each object, there exists an identity morphism that acts as a neutral element (identity) for the composition of morphisms.</p>
-<blockquote>
-<p>There exisits <code>identity</code> morphisms for each object \(1_{X}\in mor_{\mathcal{C}}(X, X),\, \forall X\in obj(\mathcal{C})\) 
-such that for any \(f\in mor_{\mathcal{C}}(A, B)\) \[1_{B}\circ f= f\circ 1_{A}.\]</p>
-</blockquote>
-<p><div style="text-align: center;">
-<img src="../../img/intro_to_category/identities.png" alt="Commutative Diagram" width="300" height="200" >
-<div></p>
-</li>
-</ul>
-<h2 id="functors"><strong>Functors</strong></h2>
-<p>The categories themselves can by "higher level arrows" which are called <span style="color: red;"><strong>Functors</strong></span>. Latter, are mappings between categories that preserve the inner relationships (morphisms and their composition) between the objects.</p>
-<div style="text-align: center;">
-    <img src="../../img/intro_to_category/functor_diag.png" alt="Commutative Diagram"  width="300" height="200">
-</div>
+  <h1>Monoids</h1>
 
-<p>As such, Functors establish analogies between two categories, and they can be used to translate the concepts from one category to another.</p>
-<h2 id="natural-transformations"><strong>Natural Transformations</strong></h2>
-<p>The <span style="color: red;"><strong>Natural Transformation</strong></span> is a concept which allows to define connections between Functors.</p>
-<p>Let \(F, G\) be two functors between the categories \( \mathcal{C}_1 \) and \( \mathcal{C}_2 \).
-A natural transformation is a collection
-\[
-  \eta:= \{ 
-    \eta_A \in
-    mor_{_{\mathcal{C}_2}}(F(A), G(A))
-    \colon A \in obj(\mathcal{C}_1) 
-    \},
-\]
-such that</p>
-<ul>
-<li>
-<p>\(\eta_A\) is a morphism from \(F(A)\) to \(G(A)\), for each \(obj(\mathcal{C}_1)\).</p>
-</li>
-<li>
-<p>The above morphism relate the way the to Functors transform objects such that for every morphism \(f\colon A \mapsto B\), \(A, B\in obj(\mathcal{C}_1)\), we have
-\[\eta_B\circ F(f) = G(f)\circ \eta_A.\]</p>
-</li>
-</ul>
-<p>This is illustrated in the following diagram with the commutative diagram that should hold for each morphism \(\eta_{X}, \eta_{Y}\) associated to the objects \(X, Y\) in the categories.</p>
-<div style="text-align: center;"> <img src="../../img/intro_to_category/Natural_Transformation3.3.png" alt="Commutative Diagram"  width="350" height="250"> </div>
+
 
 
 

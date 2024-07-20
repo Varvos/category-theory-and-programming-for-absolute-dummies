@@ -24,6 +24,11 @@ The arrows are called <span style="color: red;">**Morphisms**</span>, which are 
 - **Morphism** can be combined transitively to form new morphism.
 - Each object is associated with an **Identity Morphism** (a circular arrow to itslef) which does not change other morphism when combined with them.
 
+  
+    <div align=center>
+    <img src="../../img/intro_to_category/arrows.png" width="400px" hight="200px">
+    </div>
+
 
 ### **Functors**
 

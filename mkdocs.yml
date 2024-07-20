@@ -79,10 +79,27 @@ nav:
     - Formal Defintionns: 'basics/formal_definitions.md'
     - Morphisms: 'basics/morphisms.md'
     - Functors: 'basics/functors.md'
+    # - Adjoints: 'basics/adjoints.md'
+    # - Natural Transformations: 'basics/natural_transformations.md'
+    # - Limits and Colimits: 'basics/limits_colimits.md'
+  
+  - Advanced Topics:
+    - Monads and Monids:
+      - Monads: 'advanced/monads.md'
+      - Monoids: 'advanced/monoids.md'
+      - Monoidal Categories: 'advanced/monoidal_categories.md'
+      - Monads in Programming: 'advanced/monads_in_programming.md'
+
+    # - Enriched Categories: 'advanced/enriched_categories.md'
+    - Higher Categories: 'advanced/higher_categories.md'
+    - Topos Theory: 'advanced/topos_theory.md'
+  #   - Homotopy Type Theory: 'advanced/homotopy_type_theory.md'
 
   - Category Theory and Machine Learning:
     - Intro: 'ml/index.md'
     - Topological Data Analysis: 'ml/tda.md'
     - Graph Neural Networks: 'ml/gnn.md'
     - Categorical Deep Learning: 'ml/catlearn.md'
+
+
 
